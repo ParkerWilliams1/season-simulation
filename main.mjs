@@ -1,7 +1,7 @@
 import { Team, saints, giants, indies, knights,heat, devils, red_sharks, tornadoes, cavs, rebels, natives, soul,islanders, grizzlies, dynamite, aggies, gladiators, arrows, spartins, flames,mustangs, falcons, coasters, mountaineers, squids, braves, gold, colonials,stars, ducks, quakes, slisers, league } from './teamRatings.js'
 
 const allGames = [];
-const maxGamesPerTeam = 15;
+const maxGamesPerTeam = 31;
 const gamesPlayed = new Map();
 
 function getRandomWinner(team1, team2) {
